@@ -1,0 +1,13 @@
+<div class="form-buttons input-right">
+    <?php if (Mage::helper('stuntcoders_googleoauth/google')->isEnabled()): ?>
+        <a href="<?php echo Mage::helper('stuntcoders_googleoauth/google')->getAuthUrl(); ?>"
+           class="button button-google">
+            <span class="form-button">
+                <?php if (Mage::getStoreConfig('stuntcoders_googleoauth/google/button_text')==''): ?>
+                <?php echo $this->__('Login with Google') ?>
+                <?php endif; ?>
+                <?php echo $this->__(Mage::getStoreConfig('stuntcoders_googleoauth/google/button_text')); ?>
+            </span>
+        </a>
+    <?php endif; ?>
+</div>
