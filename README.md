@@ -22,6 +22,6 @@ Google OAuth Magento 1 module allows you to easily login to your admin panel wit
 
 - Click on add under Domain name and define your desired domain to login
 
-For example for **address@special_domain.com** domain name will be **special_domain.com**, withoyt '@' 
+For example for **address@special_domain.com** domain name will be **special_domain.com**, without '@' 
 
 Copyright StuntCoders — [Start Your Online Store Now](http://stuntcoders.com/)
